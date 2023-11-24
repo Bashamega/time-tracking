@@ -9,7 +9,7 @@ const CreditFooter: React.FC = () => {
         <span role="img" aria-label="Heart">
           ❤️
         </span>{' '}
-        by <a href='https://github.com/Bashamega'>Adam Basha</a>
+        by <a href='https://github.com/Bashamega' className=' underline'>Adam Basha</a>
       </p>
     </footer>
   );
