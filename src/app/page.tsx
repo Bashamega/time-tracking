@@ -1,4 +1,5 @@
 "use client"
+import CreditFooter from "@/components/Footer";
 import Info from "@/components/PersonalInfo";
 import Card from "@/components/card";
 import React, {useState} from "react";
@@ -59,6 +60,7 @@ export default function Home(){
 
         ))}
       </section>
+      <CreditFooter></CreditFooter>
     </main>
   )
 }
